@@ -22,3 +22,13 @@ $fonte-2: 'Aref Ruqaa', serif;
   font-size: rem($size);
   font-family: $fonte-2;
 }
+
+@mixin separator($size) {
+  &::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: rem($size);
+    background-color: $cinza;
+  }
+}

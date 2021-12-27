@@ -16,24 +16,101 @@
     <div class="container">
       <section class="intro">
         <div class="leScone">
-          <img src="/img/lescone.png" alt="Le Scone Logo" />
-          <div class="infos">
-            <div class="funcionamento">
-              <p>
-                De Seg. à Sab. <span class="iconeFuncionamento"></span> das
-                07:00h às 18:00h
-              </p>
-            </div>
-            <div class="localizacao">
-              <p>Praia de Botafogo, 300 Rio de Janeiro - RJ</p>
-            </div>
-            <p class="numeroContato">+55 021 2412-3333</p>
+          <img src="/img/lescone.png" alt="Le Scone Logo" class="logo" />
+          <div class="funcionamento">
+            <p>
+              De Seg. à Sab. <span class="iconeFuncionamento"></span><br />
+              das 07:00h às 18:00h
+            </p>
           </div>
+          <div class="localizacao">
+            <p>
+              Praia de Botafogo, 300 <br />
+              Rio de Janeiro - RJ
+            </p>
+          </div>
+          <p class="numeroContato">+55 021 2412-3333</p>
         </div>
-        <div class="img">
+        <div class="imgDiv">
           <img src="img/foto.png" alt="Funcionário fazendo café" />
         </div>
       </section>
+      <section class="menu">
+        <div>
+          <h1>Menu</h1>
+        </div>
+        <div class="comidas">
+          <div class="entradas">
+            <h2>Entradas</h2>
+            <div class="comidasWrapper">
+              <ul>
+                <li><span class="valor">R$1,70</span> Ovos Mexidos</li>
+                <li><span class="valor">R$2,70</span> Scones de Frutas</li>
+                <li><span class="valor">R$3,70</span> Joelho de Queijo</li>
+                <li><span class="valor">R$4,70</span> Presunto Cozido</li>
+                <li><span class="valor">R$3,70</span> Coxinha de Frango</li>
+              </ul>
+              <img src="img/prato-1.png" alt="Prato 1" />
+            </div>
+          </div>
+          <div class="pratosPrincipais">
+            <h2>Pratos Principais</h2>
+            <div class="comidasWrapper">
+              <ul>
+                <li><span class="valor">R$10,70</span> Penne com Queijo</li>
+                <li><span class="valor">R$22,70</span> Feijoada</li>
+                <li><span class="valor">R$33,70</span> Costela ao Molho</li>
+                <li><span class="valor">R$14,70</span> Medalhão de Frango</li>
+                <li><span class="valor">R$13,70</span> Coxinha de Frango</li>
+              </ul>
+              <img src="img/prato-2.png" alt="Prato 2" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contato">
+        <div>
+          <h1>Contato</h1>
+        </div>
+        <div class="formArea">
+          <form>
+            <div class="inputWrapper">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" />
+            </div>
+            <div class="inputFlex">
+              <div class="inputWrapper">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div class="inputWrapper">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" />
+              </div>
+            </div>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem"></textarea>
+            <div class="sumbit">
+              <button type="submit">Enviar</button>
+              <div class="contatoInfo">
+                <p>contato@lescone.com ////</p>
+                <p>+55 021 2412-3333 ////</p>
+              </div>
+            </div>
+          </form>
+          <a href="#">
+            <img src="img/map.png" alt="Mapa" />
+          </a>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <p>Le Scone © 1989 - 2016. Alguns direitos reservados</p>
+          <a href="index.html">
+            <img src="img/lescone-icone.png" alt="Lescone Ícone" />
+          </a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

@@ -1,0 +1,64 @@
+.intro {
+  margin-top: rem(60);
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10rem;
+
+  .imgDiv {
+    img {
+      border: rem(10) solid $bege-medio;
+      width: 100%;
+    }
+  }
+}
+
+.leScone {
+  p {
+    line-height: 1.6;
+  }
+
+  .logo {
+    margin-bottom: rem(60);
+  }
+
+  .funcionamento {
+    padding: rem(10) 0;
+    border-bottom: 2px solid $cinza;
+    border-right: 2px solid $cinza;
+    max-width: 20rem;
+
+    .iconeFuncionamento {
+      display: inline-block;
+      border-radius: 50%;
+      width: 0.8rem;
+      height: 0.8rem;
+      background-color: $verde;
+      margin-left: 1rem;
+    }
+  }
+
+  .localizacao {
+    padding-top: rem(10);
+    max-width: 20rem;
+    border-right: 2px solid $cinza;
+  }
+
+  .numeroContato {
+    color: $bege-escuro;
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 0.875rem;
+      background-color: $cinza;
+      height: rem(200);
+      position: absolute;
+      top: rem(150);
+      left: rem(60);
+      transform: rotate(25deg);
+      box-shadow: 5rem -2.5rem 0 0 $cinza, 10rem -5rem 0 0 $cinza,
+        15rem -7.5rem 0 0 $cinza;
+    }
+  }
+}

@@ -29,6 +29,177 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
+}
+
+.intro {
+  margin-top: 3.75rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 10rem;
+}
+
+.intro .imgDiv img {
+  border: 0.625rem solid #cbc6b9;
+  width: 100%;
+}
+
+.leScone p {
+  line-height: 1.6;
+}
+
+.leScone .logo {
+  margin-bottom: 3.75rem;
+}
+
+.leScone .funcionamento {
+  padding: 0.625rem 0;
+  border-bottom: 2px solid #2a2426;
+  border-right: 2px solid #2a2426;
+  max-width: 20rem;
+}
+
+.leScone .funcionamento .iconeFuncionamento {
+  display: inline-block;
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  background-color: #1ab912;
+  margin-left: 1rem;
+}
+
+.leScone .localizacao {
+  padding-top: 0.625rem;
+  max-width: 20rem;
+  border-right: 2px solid #2a2426;
+}
+
+.leScone .numeroContato {
+  color: #988c77;
+  position: relative;
+}
+
+.leScone .numeroContato::after {
+  content: '';
+  display: block;
+  width: 0.875rem;
+  background-color: #2a2426;
+  height: 12.5rem;
+  position: absolute;
+  top: 9.375rem;
+  left: 3.75rem;
+  -webkit-transform: rotate(25deg);
+          transform: rotate(25deg);
+  -webkit-box-shadow: 5rem -2.5rem 0 0 #2a2426, 10rem -5rem 0 0 #2a2426, 15rem -7.5rem 0 0 #2a2426;
+          box-shadow: 5rem -2.5rem 0 0 #2a2426, 10rem -5rem 0 0 #2a2426, 15rem -7.5rem 0 0 #2a2426;
+}
+
+.menu {
+  margin-top: 7.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  gap: 5.4rem;
+}
+
+.menu h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+  font-size: 1.125rem;
+  font-family: "PT Mono", monospace;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.menu h1::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 17.5rem;
+  background-color: #2a2426;
+}
+
+.comidas h2 {
+  font-size: 1.5rem;
+  font-family: "Aref Ruqaa", serif;
+  font-weight: normal;
+  margin-left: 3.9rem;
+  margin-bottom: 2rem;
+}
+
+.comidas .entradas {
+  margin-bottom: 3rem;
+}
+
+.comidas .pratosPrincipais ul {
+  margin-left: -8px;
+}
+
+.comidas .pratosPrincipais img {
+  margin-left: 8px;
+}
+
+.comidas .valor {
+  color: #988c77;
+  font-size: 1.125rem;
+  font-family: "Aref Ruqaa", serif;
+}
+
+.comidas .comidasWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.comidas .comidasWrapper ul {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+.comidas .comidasWrapper ul li {
+  margin-bottom: 0.5rem;
+}
+
+.comidas .comidasWrapper img {
+  border-radius: 50%;
+  border: 0.625rem solid #cbc6b9;
+}
+
+.contato {
+  margin-top: 7.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  gap: 9.1rem;
+}
+
+.contato h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  font-size: 1.125rem;
+  font-family: "PT Mono", monospace;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.contato h1::after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 17.5rem;
+  background-color: #2a2426;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+.contato {
+  margin-top: rem(120);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 9.1rem;
+  h1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    @include type-1(18);
+    font-weight: normal;
+    text-transform: uppercase;
+    @include separator(280);
+  }
+}
